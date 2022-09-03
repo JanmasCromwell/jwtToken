@@ -72,7 +72,7 @@ final class JWT
         }
 
         if (!empty($body['nbf']) && $body['nbf'] < time()) {
-            return $body;
+            throw new \Exception('令牌暂时不可用');
         }
 
         if ($body['exp'] < time()) {
