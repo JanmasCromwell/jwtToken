@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "eaeb8960244a5748059b2dea2dce2565",
+    "packages": [
+        {
+            "name": "janmas/encryption",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JanmasCromwell/encryption.git",
+                "reference": "10fa6672188aea04cbc0d232e141447897ae9421"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JanmasCromwell/encryption/zipball/10fa6672188aea04cbc0d232e141447897ae9421",
+                "reference": "10fa6672188aea04cbc0d232e141447897ae9421",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "encryption\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "janmas",
+                    "email": "janmas-cromwell@outlook.com"
+                }
+            ],
+            "description": "加解密小工具",
+            "support": {
+                "issues": "https://github.com/JanmasCromwell/encryption/issues",
+                "source": "https://github.com/JanmasCromwell/encryption/tree/1.0.0"
+            },
+            "time": "2022-01-05T14:36:56+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
